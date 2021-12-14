@@ -7,5 +7,7 @@ namespace Chess
     static class Chess
     {
         static public List<Piece> Pieces { get; set; }
+
+
     }
 }

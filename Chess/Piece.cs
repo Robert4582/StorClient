@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Chess
 {
-    abstract class Piece
+    public abstract class Piece
     {
         public Vector2 Position { get; set; }
 
