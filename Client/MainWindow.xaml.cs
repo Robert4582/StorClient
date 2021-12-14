@@ -33,5 +33,10 @@ namespace Client
         {
             return a - b;
         }
+
+        private void Start_Game_Click(object sender, RoutedEventArgs e)
+        {
+            Chess.Program.Main();
+        }
     }
 }

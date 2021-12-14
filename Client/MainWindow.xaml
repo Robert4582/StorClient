@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="1280">
     <Grid>
-
+        <Button x:Name="Start_Game" Click="Start_Game_Click" Width="75" Height="50">Start Game</Button>
     </Grid>
 </Window>
