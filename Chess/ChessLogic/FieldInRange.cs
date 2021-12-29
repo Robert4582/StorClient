@@ -7,19 +7,19 @@ namespace Chess
 {
     public class FieldInRange
     {
-        public Vector2 Position { get; set; }
+        public Point Position { get; set; }
 
         public enum Type { Empty, HasEnemyPiece}
 
         public Type type { get; set; }
 
-        public FieldInRange(Vector2 position)
+        public FieldInRange(Point position)
         {
             Position = position;
             type = Type.Empty;
         }
 
-        public FieldInRange(Vector2 position, Type type)
+        public FieldInRange(Point position, Type type)
         {
             Position = position;
             this.type = type;
