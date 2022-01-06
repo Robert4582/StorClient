@@ -1,9 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "c1W7XO2DMtxfxrcvGtd0gZYcRdgYfm4SHdLi4wMFUtScLnV5fv2wOjQLerriPLG9d5FO5qAyqmWRwK/vWP9MnA==",
+=======
+  "dgSpecHash": "AWZIEBHGXbt2AHGqlS99IRYsg/Cr2sqDUJBEobD2Ur1n0RJFDPmbt4swLoJq3js/SbTB+KN/Pka14yYPOkLhbQ==",
+>>>>>>> 00f7bf35d0238b689b5e10d41a7bf4b5f3224da1
   "success": true,
-  "projectFilePath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\Robert-PC\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
@@ -11,6 +16,10 @@
     "C:\\Users\\Robert-PC\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+=======
+    "C:\\Users\\rober\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+>>>>>>> 00f7bf35d0238b689b5e10d41a7bf4b5f3224da1
   ],
   "logs": []
 }

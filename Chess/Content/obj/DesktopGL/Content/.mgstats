@@ -1,1 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Robert-PC/Desktop/PB/Større systemer/Storprojekt/Client/Chess/Content/ChessBoard.png","C:/Users/Robert-PC/Desktop/PB/Større systemer/Storprojekt/Client/Chess/Content/bin/DesktopGL/Content/ChessBoard.xnb","TextureProcessor","Texture2DContent",672249,2166869,0,229032
+"C:/Users/Robert-PC/Desktop/PB/Større systemer/Storprojekt/Client/Chess/Content/ChessPieces.png","C:/Users/Robert-PC/Desktop/PB/Større systemer/Storprojekt/Client/Chess/Content/bin/DesktopGL/Content/ChessPieces.xnb","TextureProcessor","Texture2DContent",32305,196693,0,0076473
