@@ -16,7 +16,7 @@
         </Grid>
         <Grid Name="Create">
             <TextBox Text="CreateUsername" Name="CreateUsername" HorizontalAlignment="Left" Margin="53,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <TextBox Text="CreatePassword" Name="CreatePassword" HorizontalAlignment="Left" Margin="52,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox Text="CreatePassword" Name="CreatePassword" HorizontalAlignment="Left" Margin="52,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
             <Button Content="Create user" Click="Create_Click" HorizontalAlignment="Left" Margin="216,368,0,0" VerticalAlignment="Top" Height="33" Width="84"/>
         </Grid>
         <Button x:Name="Start_Game" Click="Start_Game_Click" Width="75" Margin="1116,48,0,0" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top">Start Game</Button>

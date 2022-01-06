@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\ClientTest.csproj": {}
+    "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\ClientTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Chess\\Chess.csproj": {
+    "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Chess\\Chess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Chess\\Chess.csproj",
+        "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Chess\\Chess.csproj",
         "projectName": "Chess",
-        "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Chess\\Chess.csproj",
-        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Chess\\obj\\",
+        "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Chess\\Chess.csproj",
+        "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Chess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,26 +64,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\ClientTest.csproj": {
+    "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\ClientTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\ClientTest.csproj",
+        "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\ClientTest.csproj",
         "projectName": "ClientTest",
-        "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\ClientTest.csproj",
-        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\obj\\",
+        "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\ClientTest.csproj",
+        "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +108,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj": {
-                "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj"
+              "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj": {
+                "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj"
               }
             }
           }
@@ -138,26 +154,28 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj": {
+    "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -171,8 +189,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Chess\\Chess.csproj": {
-                "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Chess\\Chess.csproj"
+              "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Chess\\Chess.csproj": {
+                "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Chess\\Chess.csproj"
               }
             }
           }
@@ -202,6 +220,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -210,7 +234,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

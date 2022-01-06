@@ -73,3 +73,7 @@ C:\Users\rober\Desktop\PB Projekter\StoreSystemer\StorClient\Client\obj\Debug\ne
 C:\Users\rober\Desktop\PB Projekter\StoreSystemer\StorClient\Client\obj\Debug\net5.0-windows\Client.genruntimeconfig.cache
 C:\Users\rober\Desktop\PB Projekter\StoreSystemer\StorClient\Client\bin\Debug\net5.0-windows\Content\ChessBoard.xnb
 C:\Users\rober\Desktop\PB Projekter\StoreSystemer\StorClient\Client\bin\Debug\net5.0-windows\Content\ChessPieces.xnb
+C:\Users\Robert-PC\Desktop\PB\Større systemer\Storprojekt\Client\Client\bin\Debug\net5.0-windows\Content\ChessBoard.xnb
+C:\Users\Robert-PC\Desktop\PB\Større systemer\Storprojekt\Client\Client\bin\Debug\net5.0-windows\Content\ChessPieces.xnb
+C:\Users\Robert-PC\Desktop\PB\Større systemer\Storprojekt\Client\Client\bin\Debug\net5.0-windows\RabbitMQ.Client.dll
+C:\Users\Robert-PC\Desktop\PB\Større systemer\Storprojekt\Client\Client\bin\Debug\net5.0-windows\StorCommon.dll

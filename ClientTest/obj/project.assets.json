@@ -5251,19 +5251,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {}
+    "C:\\Users\\Robert-PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\ClientTest.csproj",
+      "projectUniqueName": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\ClientTest.csproj",
       "projectName": "ClientTest",
-      "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\ClientTest.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\ClientTest\\obj\\",
+      "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\ClientTest.csproj",
+      "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robert-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5277,8 +5284,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj": {
-              "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Client\\Client.csproj"
+            "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj": {
+              "projectPath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Client\\Client.csproj"
             }
           }
         }
@@ -5323,13 +5330,18 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WPF": {
-            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

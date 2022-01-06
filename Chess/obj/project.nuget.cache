@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q0DJi36JQJ08mqCa0pcLMNRoZwFihO0P+4ApkMxhQYOpPFzcHTU9BSwHcTIC6GeHC0IB87RQU5PmNSFgNBQZpw==",
+  "dgSpecHash": "v2dZGKoEcMrrjur8gqox5vgZVRcTYiCqrmCoz4rTayvcgpSZXGXOm5ccGG+GPGiCtnTDhtjOQANiajLLDjgYgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rober\\Desktop\\PB Projekter\\StoreSystemer\\StorClient\\Chess\\Chess.csproj",
+  "projectFilePath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\Chess\\Chess.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rober\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\rober\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+    "C:\\Users\\Robert-PC\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Robert-PC\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Robert-PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }
