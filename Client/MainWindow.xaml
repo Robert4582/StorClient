@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="720" Width="1280">
     <Grid>
-        <Button x:Name="Start_Game" Click="Start_Game_Click" Width="75" Height="50">Start Game</Button>
+        <Grid Name="LoginGrid">
+            <TextBox Text="Username" Name="User"  TextWrapping="Wrap" Margin="18,84,0,0" HorizontalAlignment="Left" Width="182" Height="32" VerticalAlignment="Top"/>
+            <TextBox Text="Password" Name="Password" TextWrapping="Wrap" Margin="18,175,0,0" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left" Width="182"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.707,-0.499"><Run Language="da-dk" Text="User name"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="22,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="da-dk" Text="Password"/></TextBlock>
+            <Button x:Name="Login" Click="Login_Click" Width="75" Margin="218,124,0,0" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Content="Login"/>
+        </Grid>
+        <Grid Name="Create">
+            <TextBox Text="CreateUsername" Name="CreateUsername" HorizontalAlignment="Left" Margin="53,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox Text="CreatePassword" Name="CreatePassword" HorizontalAlignment="Left" Margin="52,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Button Content="Create user" Click="Create_Click" HorizontalAlignment="Left" Margin="216,368,0,0" VerticalAlignment="Top" Height="33" Width="84"/>
+        </Grid>
+        <Button x:Name="Start_Game" Click="Start_Game_Click" Width="75" Margin="1116,48,0,0" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top">Start Game</Button>
+
+        <TextBox  HorizontalAlignment="Left" Margin="6,549,0,0" Text="ErrorBox" Name="ErrorBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

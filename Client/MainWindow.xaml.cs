@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Common;
+using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,18 +28,70 @@ namespace Client
             InitializeComponent();
         }
 
-        public static int Add(int a, int b)
+        public NetworkFile SendData(NetworkFile file)
         {
-            return a + b;
+            NetworkFile<string[]> response = null;
+
+            try
+            {
+                int port = 13000;
+                TcpClient client = new TcpClient("127.0.0.1", port);
+                using IMemoryOwner<byte> memory = MemoryPool<byte>.Shared.Rent(1024 * 4);
+
+                byte[] data = Json.SerializeToBytes(file);
+
+                NetworkStream stream = client.GetStream();
+
+                stream.Write(data, 0, data.Length);
+
+                Span<byte> bb = new byte[512];
+
+                ReadOnlyMemory<byte> request = memory.Memory.Slice(0, stream.Read(bb));
+                response = Json.DeserializeFromMemory<NetworkFile<string[]>>(request);
+
+                if (response.Info.Length > 0)
+                {
+                    ErrorBox.Text = "";
+                    foreach (var item in response.Info)
+                    {
+                        ErrorBox.Text += " - " + item;
+                    }
+                }
+                else
+                {
+                    ErrorBox.Text = "Invalid";
+                }
+
+                stream.Close();
+                client.Close();
+            }
+            catch (Exception ex)
+            {
+                ErrorBox.Text = ex.Message;
+            }
+            return response;
         }
-        public static int Subtract(int a, int b)
+
+        public void Login_Click(object sender, RoutedEventArgs e)
         {
-            return a - b;
+            NetworkFile<string[]> message = new NetworkFile<string[]>
+            {
+                Service = Services.Login,
+                Info = new string[] { User.Text, Password.Text }
+
+            };
+        }
+
+        public void Create_Click(object sender, RoutedEventArgs e)
+        {
+            string createUserName = CreateUsername.Text;
+            string createUserPassword = CreatePassword.Text;
         }
 
         private void Start_Game_Click(object sender, RoutedEventArgs e)
         {
             Chess.Program.Main();
         }
+
     }
 }
