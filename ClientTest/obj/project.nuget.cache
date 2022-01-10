@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PSPiXDVZeCKx9S+LGPjp6Bckzs5G5Ns5nQbAent2BCA41mrpmvMXLSNKu9DfOmUYry/3G3a076WYCwBQu/LWgw==",
+  "dgSpecHash": "2xl5vsINvo2EZn6WPT2DToF//XiGtC0nLz1ODsMPt/RCeOL5KkNm1f7CMy0Q4ZHs8pDhRpbP5I1vnDqPVw5Lww==",
   "success": true,
   "projectFilePath": "C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\ClientTest.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,7 @@
     "C:\\Users\\Robert-PC\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\storcommon\\1.1.3\\storcommon.1.1.3.nupkg.sha512",
+    "C:\\Users\\Robert-PC\\.nuget\\packages\\storcommon\\1.1.6\\storcommon.1.1.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
@@ -76,12 +76,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

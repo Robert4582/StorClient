@@ -555,7 +555,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "StorCommon/1.1.3": {
+      "StorCommon/1.1.6": {
         "type": "package",
         "dependencies": {
           "RabbitMQ.Client": "6.2.2"
@@ -1368,7 +1368,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Chess": "1.0.0",
-          "StorCommon": "1.1.3"
+          "StorCommon": "1.1.6"
         },
         "compile": {
           "bin/placeholder/Client.dll": {}
@@ -2474,15 +2474,15 @@
         "runtime.native.system.nuspec"
       ]
     },
-    "StorCommon/1.1.3": {
-      "sha512": "VlG1GuF3cO1sMaRb70CTE8H9uGbEc5F+D0NBdMSwUTIPZLWPrPrg/KsGGt6S2HdBSlntySWlET5Dl4ZN9O18nA==",
+    "StorCommon/1.1.6": {
+      "sha512": "Z8DJx3otrpiknCKPN17pq8hRc/z5MLzGlWBNTxM1RzekNel3NBLbNrhuslwZBln+ik5Im+FUdvb5HZRweKxUXg==",
       "type": "package",
-      "path": "storcommon/1.1.3",
+      "path": "storcommon/1.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/StorCommon.dll",
-        "storcommon.1.1.3.nupkg.sha512",
+        "storcommon.1.1.6.nupkg.sha512",
         "storcommon.nuspec"
       ]
     },
@@ -5335,13 +5335,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Robert-PC\\Desktop\\PB\\Større systemer\\Storprojekt\\Client\\ClientTest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

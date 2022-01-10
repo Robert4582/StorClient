@@ -44,9 +44,8 @@ namespace Client
 
                 stream.Write(data, 0, data.Length);
 
-                Span<byte> bb = new byte[512];
-
-                ReadOnlyMemory<byte> request = memory.Memory.Slice(0, stream.Read(memory.Memory.Span));
+                int length = stream.Read(memory.Memory.Span);
+                ReadOnlyMemory<byte> request = memory.Memory.Slice(0, length);
                 response = Json.DeserializeFromMemory<NetworkFile<string[]>>(request);
 
                 if (response.Info.Length > 0)
@@ -85,8 +84,13 @@ namespace Client
 
         public void Create_Click(object sender, RoutedEventArgs e)
         {
-            string createUserName = CreateUsername.Text;
-            string createUserPassword = CreatePassword.Text;
+            NetworkFile<string[]> message = new NetworkFile<string[]>
+            {
+                Service = Services.Create,
+                Info = new string[] { CreateUsername.Text, CreatePassword.Text, CreateNickname.Text }
+            };
+
+            SendData(message);
         }
 
         private void Start_Game_Click(object sender, RoutedEventArgs e)
