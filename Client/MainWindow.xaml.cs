@@ -28,7 +28,7 @@ namespace Client
             InitializeComponent();
         }
 
-        public NetworkFile SendData(NetworkFile file)
+        public NetworkFile SendData<T>(NetworkFile<T> file)
         {
             NetworkFile<string[]> response = null;
 
@@ -46,7 +46,7 @@ namespace Client
 
                 Span<byte> bb = new byte[512];
 
-                ReadOnlyMemory<byte> request = memory.Memory.Slice(0, stream.Read(bb));
+                ReadOnlyMemory<byte> request = memory.Memory.Slice(0, stream.Read(memory.Memory.Span));
                 response = Json.DeserializeFromMemory<NetworkFile<string[]>>(request);
 
                 if (response.Info.Length > 0)
@@ -78,8 +78,9 @@ namespace Client
             {
                 Service = Services.Login,
                 Info = new string[] { User.Text, Password.Text }
-
             };
+
+            SendData(message);
         }
 
         public void Create_Click(object sender, RoutedEventArgs e)
